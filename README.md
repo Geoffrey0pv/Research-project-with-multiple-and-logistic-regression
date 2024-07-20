@@ -60,7 +60,7 @@ The Saber Pro Tests are a set of standardized assessments conducted in Colombia 
 
 ### Project Goal
 
-The goal of this project is to predict whether a student who took the Saber Pro Tests has received a scholarship for their university tuition. The target variable (`target`) is `ESTU_PAGOMATRICULABECA_Si`, indicating whether the student received a scholarship. This prediction can help identify factors associated with obtaining scholarships and design strategies to promote equity and access to higher education.
+This project aims to predict whether a student who took the Saber Pro Tests has received a scholarship for their university tuition. The target variable (`target`) is `ESTU_PAGOMATRICULABECA_Si`, indicating whether the student received a scholarship. This prediction can help identify factors associated with obtaining scholarships and design strategies to promote equity and access to higher education.
 
 ### Importance of Prediction
 
@@ -70,20 +70,20 @@ The goal of this project is to predict whether a student who took the Saber Pro 
 
 ### Data Description
 
-The data used in this project come from the Saber Pro Tests and contain various characteristics related to students and their test results. Key features include:
+The data used in this project came from the Saber Pro Tests and contained various characteristics related to students and their test results. Key features include:
 
 - **Personal and Demographic Data:**
   - `ESTU_TIPODOCUMENTO`: Type of identification document.
   - `ESTU_GENERO`: Student's gender.
   - `ESTU_FECHANACIMIENTO`: Student's date of birth.
-  - `ESTU_DEPTO_RESIDE`: Department of residence.
+  - `ESTU_DEPTO_RESIDE`: Department of Residence.
   - `ESTU_MCPIO_RESIDE`: Municipality of residence.
   - `ESTU_AREARESIDE`: Area of residence (urban or rural).
 
 - **Academic and Financial Data:**
   - `ESTU_VALORMATRICULAUNIVERSIDAD`: University tuition value.
   - `ESTU_PAGOMATRICULABECA`: Indicator if the student received a scholarship.
-  - `ESTU_PAGOMATRICULACREDITO`: Indicator if the student paid tuition with credit.
+  - `ESTU_PAGOMATRICULACREDITO`: This indicator indicates if the student paid tuition with credit.
 
 - **Test Results:**
   - `MOD_INGLES_DESEM`, `MOD_INGLES_PNAL`, `MOD_INGLES_PNBC`: Performance in English tests.
@@ -122,5 +122,3 @@ The data used in this project come from the Saber Pro Tests and contain various 
 
 - [Logistic Regression](https://colab.research.google.com/drive/1J_d4xZbEr8LBC2ZOmmzVBNP7IZysaYcu?usp=sharing&pli=1&authuser=1)
 - [Multiple Regression](https://colab.research.google.com/drive/1qEDmz7-W19vKDLBb6iycWh7WKKhvUZ0E#scrollTo=ghEwK2SxnUtR)
-
-This structured approach will ensure orderly progress in the project, addressing all key aspects adequately.
